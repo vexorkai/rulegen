@@ -1,0 +1,13 @@
+{
+  "name": "rulegen",
+  "version": "0.1.0",
+  "description": "Interview-driven CLAUDE.md generation — structured interview extracts tacit project knowledge into optimized AI rules",
+  "author": "Vexor",
+  "skills": [
+    {
+      "name": "rulegen",
+      "file": "skills/rulegen/SKILL.md",
+      "trigger": "/rulegen"
+    }
+  ]
+}
