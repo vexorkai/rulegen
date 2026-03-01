@@ -1,0 +1,19 @@
+{
+  "name": "rulegen",
+  "version": "0.1.0",
+  "description": "Auto-generate CLAUDE.md and .cursorrules from codebase analysis",
+  "bin": {
+    "rulegen": "./bin/rulegen.js"
+  },
+  "main": "./lib/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "keywords": ["claude", "cursor", "ai", "codegen", "developer-tools"],
+  "author": "Vexor",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+}
