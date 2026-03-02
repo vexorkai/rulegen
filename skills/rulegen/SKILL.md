@@ -1,6 +1,8 @@
-# rulegen — CLAUDE.md Interview Skill
+---
+name: rulegen
+description: Generate CLAUDE.md through a guided interview. Extracts tacit knowledge — conventions, workflow, agentic loop design — that Claude can't get from reading code.
+---
 
-## Trigger
 Activate when the user runs `/rulegen` or says "generate CLAUDE.md", "run rulegen", "create rules for this project", or "interview me for CLAUDE.md".
 
 ## What you do
