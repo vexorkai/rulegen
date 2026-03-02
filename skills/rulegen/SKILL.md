@@ -122,7 +122,7 @@ cat > CLAUDE.md << 'EOF'
 EOF
 ```
 
-Confirm: "CLAUDE.md written. You can run `session-lens` after your next session to see if it reduced friction."
+Confirm: "CLAUDE.md written. You can run `claude-trace --reflect` after your next session to see if it reduced friction."
 
 ---
 
