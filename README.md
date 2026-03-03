@@ -16,7 +16,7 @@ Claude can read your codebase. What it can't do is read your mind. rulegen asks 
 
 ```bash
 mkdir -p ~/.claude/skills/rulegen
-curl -o ~/.claude/skills/rulegen/SKILL.md https://raw.githubusercontent.com/vexorkai/rulegen/master/skills/rulegen/SKILL.md
+curl -o ~/.claude/skills/rulegen/SKILL.md https://raw.githubusercontent.com/vexorkai/rulegen/main/skills/rulegen/SKILL.md
 ```
 
 Claude Code auto-loads skills from `~/.claude/skills/`.
