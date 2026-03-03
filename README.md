@@ -14,8 +14,15 @@ Claude can read your codebase. What it can't do is read your mind. rulegen asks 
 
 ## Install
 
+Add the marketplace source:
+
 ```
 /plugin marketplace add vexorkai/rulegen
+```
+
+Then install the plugin:
+
+```
 /plugin install rulegen@vexorkai-rulegen
 ```
 
@@ -27,9 +34,7 @@ In a Claude Code session, type:
 /rulegen
 ```
 
-Claude will walk through a structured interview with you. Answer honestly — the output quality scales directly with how much you share. The more specific you are, the more useful the generated `CLAUDE.md` will be.
-
-At the end, Claude writes `CLAUDE.md` to your project root.
+Claude walks through a structured interview — project orientation, conventions, workflow, agentic behavior, and gotchas. At the end, it writes `CLAUDE.md` to your project root.
 
 ## Why interview-driven?
 
