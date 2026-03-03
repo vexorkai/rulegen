@@ -1,0 +1,23 @@
+{
+  "name": "rulegen",
+  "owner": {
+    "name": "Vexor",
+    "url": "https://github.com/vexorkai"
+  },
+  "metadata": {
+    "description": "Interview-driven CLAUDE.md generation",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "rulegen",
+      "source": ".",
+      "description": "Generate CLAUDE.md through a guided interview — extracts tacit knowledge that Claude can't get from reading code",
+      "version": "0.1.0",
+      "author": {
+        "name": "Vexor"
+      },
+      "tags": ["claude-md", "rules", "interview", "conventions"]
+    }
+  ]
+}

@@ -15,7 +15,8 @@ Claude can read your codebase. What it can't do is read your mind. rulegen asks 
 ## Install
 
 ```
-/plugin install vexorkai/rulegen
+/plugin marketplace add vexorkai/rulegen
+/plugin install rulegen@vexorkai-rulegen
 ```
 
 ## Usage
