@@ -1,6 +1,6 @@
 # rulegen
 
-A Claude Code skill that generates `CLAUDE.md` through a guided interview — not static code scanning.
+A Claude Code plugin that generates `CLAUDE.md` through a guided interview — not static code scanning.
 
 Claude can read your codebase. What it can't do is read your mind. rulegen asks the right questions to surface what's in your head: the conventions you enforce, the workflows you follow, the things that trip up every AI assistant that touches your project.
 
@@ -14,12 +14,18 @@ Claude can read your codebase. What it can't do is read your mind. rulegen asks 
 
 ## Install
 
+Add the marketplace, then install the plugin:
+
 ```bash
-mkdir -p ~/.claude/skills/rulegen
-curl -o ~/.claude/skills/rulegen/SKILL.md https://raw.githubusercontent.com/vexorkai/rulegen/main/skills/rulegen/SKILL.md
+/plugin marketplace add vexorkai/rulegen
+/plugin install rulegen
 ```
 
-Claude Code auto-loads skills from `~/.claude/skills/`.
+Or install directly during development:
+
+```bash
+claude --plugin-dir ./path/to/rulegen
+```
 
 ## Usage
 
