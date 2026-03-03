@@ -14,15 +14,17 @@ Claude can read your codebase. What it can't do is read your mind. rulegen asks 
 
 ## Install
 
-Add the marketplace source:
+From the CLI:
+
+```bash
+claude plugin marketplace add vexorkai/rulegen
+claude plugin install rulegen@vexorkai-rulegen
+```
+
+Or from inside a Claude Code session:
 
 ```
 /plugin marketplace add vexorkai/rulegen
-```
-
-Then install the plugin:
-
-```
 /plugin install rulegen@vexorkai-rulegen
 ```
 

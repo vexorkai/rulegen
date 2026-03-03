@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "rulegen",
-      "source": ".",
+      "source": "./",
       "description": "Generate CLAUDE.md through a guided interview — extracts tacit knowledge that Claude can't get from reading code",
       "version": "0.1.0",
       "author": {
