@@ -14,17 +14,8 @@ Claude can read your codebase. What it can't do is read your mind. rulegen asks 
 
 ## Install
 
-Add the marketplace, then install the plugin:
-
-```bash
-/plugin marketplace add vexorkai/rulegen
-/plugin install rulegen
 ```
-
-Or install directly during development:
-
-```bash
-claude --plugin-dir ./path/to/rulegen
+/plugin install vexorkai/rulegen
 ```
 
 ## Usage
